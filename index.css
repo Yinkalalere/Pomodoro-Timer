@@ -72,7 +72,7 @@
     content: 'Cycle';
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 414px){
     .container{
         display: flex;
         justify-content: space-between;
