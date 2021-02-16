@@ -71,3 +71,35 @@
 .list #counter:before{
     content: 'Cycle';
 }
+
+@media screen and (max-width: 430px){
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container h2{
+        text-align: center;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        margin-top:50px;
+    }
+    .list div{
+        margin-bottom:50px;
+    }
+
+    #btns-align{
+        display:flex;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container h2{
+        text-align:center;
+    }
+}
